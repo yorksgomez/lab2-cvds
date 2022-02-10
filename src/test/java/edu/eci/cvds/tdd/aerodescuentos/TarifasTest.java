@@ -13,17 +13,12 @@ public class TarifasTest {
 	@param diasAntelacion dias de antelación del vuelo
 	@param edad - edad del pasajero
 	@throws ExcepcionParametrosInvalidos [XXXXXXXXXXXXXXXXXXXXXXXXXXX]
-	**/
 	public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
 	**/
 
 	@Test
-    public void validateRegistryResult() {
+    public void validateTarifa() {
 
-        Person person = new Person("kevin", 1, 18, Gender.MALE, true);
-
-        RegisterResult result = registry.registerVoter(person);
-        Assert.assertEquals(RegisterResult.VALID, result);
     }
 
 }
